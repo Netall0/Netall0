@@ -1,6 +1,6 @@
 # Hi there 👋
 
-- Денис 15 уважаемый
+ Денис 15 уважаемый🧃
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-159%20hrs%2051%20mins-blue)
