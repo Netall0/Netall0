@@ -56,11 +56,6 @@ C++                      1 repo              ██████░░░░░�
 
 
 
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/Netall0/Netall0/main/assets/bar_graph.png)
-
-
  Last Updated on 04/03/2024 11:05:31 UTC
 <!--END_SECTION:waka-->
 
