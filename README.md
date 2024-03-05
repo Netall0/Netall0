@@ -1,8 +1,8 @@
 # Hi there 👋
 
-<p align="center">
-    <img height = 345  src="[https://i.pinimg.com/originals/34/d7/a3/34d7a3bbe7ab056f213e66c7182dd57e.gif](https://i.pinimg.com/originals/bd/56/5d/bd565dcc0a556add0b0a0ed6b26d686e.gif)">
-</p>
+
+![bd565dcc0a556add0b0a0ed6b26d686e](https://github.com/Netall0/Netall0/assets/113532176/3b1d4b44-6a21-4538-a6ec-2ba2a7c53f63)
+
 
 
 <!--START_SECTION:waka-->
