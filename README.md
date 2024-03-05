@@ -2,7 +2,8 @@
 <!--START_SECTION:waka-->
 
 
-![Uploading 90bff7f439aa4424896d0e4aa7dc21ae.gif…]()
+![90bff7f439aa4424896d0e4aa7dc21ae](https://github.com/Netall0/Netall0/assets/113532176/b8190d33-e825-400a-ae6d-a4ea10526824)
+
 
 
 
