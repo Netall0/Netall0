@@ -1,8 +1,10 @@
 # Hi there 👋
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-161%20hrs%2049%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-40-blue)
+
+
+![bd565dcc0a556add0b0a0ed6b26d686e](https://github.com/Netall0/Netall0/assets/113532176/56ede8df-fe67-4728-ae63-94a578858a37)
+
 
 
 
@@ -43,6 +45,10 @@ VS Code                  11 hrs 35 mins      ███████████�
 💻 Operating System: 
 Windows                  11 hrs 35 mins      █████████████████████████   100.00 % 
 ```
+
+![Code Time](http://img.shields.io/badge/Code%20Time-161%20hrs%2049%20mins-blue)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-40-blue)
 
 
 
