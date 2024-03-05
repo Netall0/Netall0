@@ -1,7 +1,7 @@
 # Hi there 👋
 
 <p align="center">
-    <img height = 400 src="https://i.pinimg.com/originals/34/d7/a3/34d7a3bbe7ab056f213e66c7182dd57e.gif">
+    <img height = 345  src="[https://i.pinimg.com/originals/34/d7/a3/34d7a3bbe7ab056f213e66c7182dd57e.gif](https://i.pinimg.com/originals/bd/56/5d/bd565dcc0a556add0b0a0ed6b26d686e.gif)">
 </p>
 
 
