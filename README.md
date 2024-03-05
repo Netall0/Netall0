@@ -2,8 +2,9 @@
 <!--START_SECTION:waka-->
 
 
+![Uploading 90bff7f439aa4424896d0e4aa7dc21ae.gif…]()
 
-![9a09008d9c2cb2c0a3e724693e992f16](https://github.com/Netall0/Netall0/assets/113532176/88bf2c00-34ec-4e88-9764-54fb29f597bf)
+
 
 
 
