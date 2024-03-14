@@ -8,20 +8,6 @@
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-166%20hrs%2051%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-114-blue)
-
-**🐱 My GitHub Data** 
-
-> 📦 3.7 kB Used in GitHub's Storage 
- > 
-> 🏆 56 Contributions in the Year 2024
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 1 Public Repository 
- > 
-> 🔑 5 Private Repository 
- > 
 **I'm a Night 🦉** 
 
 ```text
@@ -59,32 +45,12 @@ Text                     0 secs              ░░░░░░░░░░░�
 VS Code                  3 hrs 56 mins       ████████████████████████░   96.73 % 
 Android Studio           7 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.27 % 
 
-🐱‍💻 Projects: 
-leetcode_solution        2 hrs 54 mins       ██████████████████░░░░░░░   71.45 % 
-lol_kek_database         1 hr 1 min          ██████░░░░░░░░░░░░░░░░░░░   25.28 % 
-TRANSLATER               5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.14 % 
-databaseminitodo         2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.14 % 
-
 💻 Operating System: 
 Windows                  4 hrs 4 mins        █████████████████████████   100.00 % 
 ```
 
-**I Mostly Code in Dart** 
 
-```text
-Dart                     3 repos             ███████████████░░░░░░░░░░   60.00 % 
-HTML                     1 repo              █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
-C++                      1 repo              █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
-```
-
-
-
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/Netall0/Netall0/main/assets/bar_graph.png)
-
-
- Last Updated on 14/03/2024 08:04:21 UTC
+ Last Updated on 14/03/2024 18:31:40 UTC
 <!--END_SECTION:waka-->
 
 
