@@ -8,32 +8,7 @@
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-279%20hrs%2033%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
-
-**🐱 My GitHub Data** 
-
-> 📦 52.0 kB Used in GitHub's Storage 
- > 
-> 🏆 92 Contributions in the Year 2024
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 1 Public Repository 
- > 
-> 🔑 6 Private Repository 
- > 
-📅 **I'm Most Productive on Monday** 
-
-```text
-Monday                   38 commits          ██████████░░░░░░░░░░░░░░░   38.38 % 
-Tuesday                  21 commits          █████░░░░░░░░░░░░░░░░░░░░   21.21 % 
-Wednesday                3 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.03 % 
-Thursday                 11 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
-Friday                   20 commits          █████░░░░░░░░░░░░░░░░░░░░   20.20 % 
-Saturday                 4 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   04.04 % 
-Sunday                   2 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   02.02 % 
-```
-
+![Profile Views](http://img.shields.io/badge/Profile%20Views-83-blue)
 
 📊 **This Week I Spent My Time On** 
 
@@ -52,7 +27,7 @@ No Activity Tracked This Week
 ![Lines of Code chart](https://raw.githubusercontent.com/Netall0/Netall0/main/assets/bar_graph.png)
 
 
- Last Updated on 22/07/2024 18:37:06 UTC
+ Last Updated on 22/07/2024 18:45:53 UTC
 <!--END_SECTION:waka-->
 
 
