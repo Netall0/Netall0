@@ -8,8 +8,6 @@
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-279%20hrs%2033%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-83-blue)
-
 📊 **This Week I Spent My Time On** 
 
 ```text
@@ -22,12 +20,8 @@ No Activity Tracked This Week
 No Activity Tracked This Week
 ```
 
-**Timeline**
 
-![Lines of Code chart](https://raw.githubusercontent.com/Netall0/Netall0/main/assets/bar_graph.png)
-
-
- Last Updated on 22/07/2024 18:45:53 UTC
+ Last Updated on 22/07/2024 18:49:03 UTC
 <!--END_SECTION:waka-->
 
 
