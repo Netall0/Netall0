@@ -6,8 +6,22 @@
 
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-311%20hrs%201%20min-blue)
 
- Last Updated on 08/09/2024 18:37:56 UTC
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Novosibirsk
+
+🔥 Editors: 
+VS Code                  6 hrs 9 mins        █████████████████████████   100.00 % 
+
+💻 Operating System: 
+Windows                  6 hrs 9 mins        █████████████████████████   100.00 % 
+```
+
+
+ Last Updated on 09/09/2024 18:39:10 UTC
 <!--END_SECTION:waka-->
 
 
