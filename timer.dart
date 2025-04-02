@@ -1,110 +1,87 @@
+// main.dart
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const TodoApp());
-}
+void main() => runApp(const MyApp());
 
-class TodoApp extends StatelessWidget {
-  const TodoApp({Key? key}) : super(key: key);
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Todo List',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
-      home: const TodoListScreen(),
+      title: 'Todo List',
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: const TodoList(),
     );
   }
 }
 
-class TodoListScreen extends StatefulWidget {
-  const TodoListScreen({Key? key}) : super(key: key);
+class TodoList extends StatefulWidget {
+  const TodoList({super.key});
 
   @override
-  _TodoListScreenState createState() => _TodoListScreenState();
+  _TodoListState createState() => _TodoListState();
 }
 
-class _TodoListScreenState extends State<TodoListScreen> {
-  final List<Todo> _todos = [];
-  final TextEditingController _textFieldController = TextEditingController();
+class _TodoListState extends State<TodoList> {
+  final List<Map<String, dynamic>> _todos = [];
+  final TextEditingController _controller = TextEditingController();
 
-  void _addTodoItem(String title) {
+  void _addTodo() {
+    if (_controller.text.isEmpty) return;
     setState(() {
-      _todos.add(Todo(
-        id: DateTime.now().millisecondsSinceEpoch.toString(),
-        title: title,
-        completed: false,
-      ));
-    });
-    _textFieldController.clear();
-  }
-
-  void _toggleTodo(Todo todo) {
-    setState(() {
-      todo.completed = !todo.completed;
+      _todos.add({'title': _controller.text, 'completed': false});
+      _controller.clear();
     });
   }
 
-  void _deleteTodo(String id) {
+  void _toggleTodo(int index) {
     setState(() {
-      _todos.removeWhere((todo) => todo.id == id);
+      _todos[index]['completed'] = !_todos[index]['completed'];
     });
   }
 
-  void _showAddTodoDialog() {
-    showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return AlertDialog(
-          title: const Text('Add a new task'),
-          content: TextField(
-            controller: _textFieldController,
-            decoration: const InputDecoration(hintText: 'Enter task here'),
-            autofocus: true,
-          ),
-          actions: <Widget>[
-            TextButton(
-              child: const Text('CANCEL'),
-              onPressed: () {
-                Navigator.of(context).pop();
-                _textFieldController.clear();
-              },
-            ),
-            TextButton(
-              child: const Text('ADD'),
-              onPressed: () {
-                if (_textFieldController.text.isNotEmpty) {
-                  _addTodoItem(_textFieldController.text);
-                }
-                Navigator.of(context).pop();
-              },
-            ),
-          ],
-        );
-      },
-    );
-  }
-
-  @override
-  void dispose() {
-    _textFieldController.dispose();
-    super.dispose();
+  void _deleteTodo(int index) {
+    setState(() => _todos.removeAt(index));
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Todo List'),
-      ),
-      body: _todos.isEmpty
-          ? const Center(
-              child: Text(
-                'No tasks yet. Add one by tapping the + button.',
-                style: TextStyle(fontSize: 16),
+      appBar: AppBar(title: const Text('Todo List')),
+      body: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: TextField(
+              controller: _controller,
+              decoration: InputDecoration(
+                labelText: 'Новая задача',
+                suffixIcon: IconButton(
+                  icon: const Icon(Icons.add),
+                  onPressed: _addTodo,
+                ),
               ),
-            )
-          : ListView.bu
+              onSubmitted: (_) => _addTodo(),
+            ),
+          ),
+          Expanded(
+            child: ListView.builder(
+              itemCount: _todos.length,
+              itemBuilder: (context, index) => Dismissible(
+                key: Key(_todos[index]['title']),
+                background: Container(color: Colors.red),
+                onDismissed: (_) => _deleteTodo(index),
+                child: CheckboxListTile(
+                  title: Text(_todos[index]['title']),
+                  value: _todos[index]['completed'],
+                  onChanged: (_) => _toggleTodo(index),
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
