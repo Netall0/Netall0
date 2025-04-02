@@ -36,13 +36,39 @@ class _TodoListState extends State<TodoList> {
   }
 
   void _toggleTodo(int index) {
-    setState(() {
-      _todos[index]['completed'] = !_todos[index]['completed'];
-    });
+    setState(() => _todos[index]['completed'] = !_todos[index]['completed']);
   }
 
   void _deleteTodo(int index) {
     setState(() => _todos.removeAt(index));
+  }
+
+  void _editTodo(int index) async {
+    final TextEditingController editController = TextEditingController(
+      text: _todos[index]['title']
+    );
+    
+    final result = await showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Редактировать задачу'),
+        content: TextField(controller: editController),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context, 'delete'),
+            child: const Text('Удалить', style: TextStyle(color: Colors.red))),
+          TextButton(
+            onPressed: () => Navigator.pop(context, 'save'),
+            child: const Text('Сохранить')),
+        ],
+      ),
+    );
+
+    if (result == 'save' && editController.text.isNotEmpty) {
+      setState(() => _todos[index]['title'] = editController.text);
+    } else if (result == 'delete') {
+      _deleteTodo(index);
+    }
   }
 
   @override
@@ -69,13 +95,22 @@ class _TodoListState extends State<TodoList> {
             child: ListView.builder(
               itemCount: _todos.length,
               itemBuilder: (context, index) => Dismissible(
-                key: Key(_todos[index]['title']),
+                key: Key(_todos[index]['title'] + index.toString()),
                 background: Container(color: Colors.red),
                 onDismissed: (_) => _deleteTodo(index),
-                child: CheckboxListTile(
-                  title: Text(_todos[index]['title']),
-                  value: _todos[index]['completed'],
-                  onChanged: (_) => _toggleTodo(index),
+                child: ListTile(
+                  leading: Checkbox(
+                    value: _todos[index]['completed'],
+                    onChanged: (_) => _toggleTodo(index),
+                  ),
+                  title: Text(_todos[index]['title'],
+                    style: TextStyle(
+                      decoration: _todos[index]['completed']
+                        ? TextDecoration.lineThrough
+                        : TextDecoration.none,
+                    ),
+                  ),
+                  onTap: () => _editTodo(index),
                 ),
               ),
             ),
