@@ -14,6 +14,12 @@
 ![Streak](https://streak-stats.demolab.com?user=Netall0&theme=transparent)
 ![Trophies](https://github-profile-trophy.vercel.app/?username=Netall0&theme=onedark&no-frame=true&no-bg=true&margin-w=5)
 
+![Flutter 🦋](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart 🧩](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+
+![LeetCode Rating](https://img.shields.io/badge/LeetCode-1600%20Rating-orange?style=for-the-badge&logo=leetcode)
+
+
 
 
  
