@@ -1,9 +1,7 @@
 # 🦋 Hey there!
 
 <div align="center">
-
-> 🕶️ **16 y.o.**  
-> 🌀 **Alpha version**  
+*  
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Netall0&color=blueviolet&style=flat-square)
 
