@@ -15,10 +15,7 @@
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=Netall0&show_icons=true&theme=transparent&hide_title=true)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Netall0&layout=compact&theme=transparent)  
-![Streak](https://streak-stats.demolab.com?user=Netall0&theme=transparent)  
-![Trophies](https://github-profile-trophy.vercel.app/?username=Netall0&theme=onedark&no-frame=true&no-bg=true&margin-w=5)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Netall0&show_icons=true&theme=radical)
 
 </div>
 
